@@ -1,0 +1,10 @@
+{
+  "imageURL": "/image/characters.gif",
+
+  "frames": [
+    {
+      "name": "lol",
+      "rect": [375, 187, 16, 16]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "imageURL" : "/image/characters.gif",
+  "frames": [
+    {
+      "name": "idle",
+      "rect": [276, 40, 16, 20
+
+      ]
+    },
+    {
+      "name": "run-1",
+      "rect": [290, 40, 16, 20
+
+      ]
+    },
+    {
+      "name": "run-2",
+      "rect": [304, 40, 16, 20
+
+      ]
+    },
+    {
+      "name": "run-3",
+      "rect": [321, 40, 16, 20
+
+      ]
+    },
+    {
+      "name": "break",
+      "rect": [337, 40, 16, 20
+
+      ]
+    },
+    {
+      "name": "jump",
+      "rect": [355, 40, 16, 20
+
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "name": "run",
+      "frameLen": 6,
+      "frames": [
+        "run-1",
+        "run-2",
+        "run-3"
+      ]
+    }
+  ]
+}

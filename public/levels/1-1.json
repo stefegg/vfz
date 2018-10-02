@@ -1,0 +1,528 @@
+{
+  "spriteSheet": "overworld",
+
+  "patterns": {
+    "cloud": {
+      "tiles": [{
+          "name": "cloud t-l",
+          "ranges": [
+            [0, 0]
+          ]
+        },
+        {
+          "name": "cloud t-m",
+          "ranges": [
+            [1, 0]
+          ]
+        },
+        {
+          "name": "cloud t-r",
+          "ranges": [
+            [2, 0]
+          ]
+        },
+        {
+          "name": "cloud b-l",
+          "ranges": [
+            [0, 1]
+          ]
+        },
+        {
+          "name": "cloud b-m",
+          "ranges": [
+            [1, 1]
+          ]
+        },
+        {
+          "name": "cloud b-r",
+          "ranges": [
+            [2, 1]
+          ]
+        }
+      ]
+    },
+    "tree-2h": {
+      "tiles": [
+
+        {
+          "pattern": "tree-cap",
+          "ranges": [
+
+            [0, 0]
+          ]
+        },
+        {
+          "pattern": "tree-stump-2",
+          "ranges": [
+
+            [0, 2],
+            [0, 3]
+          ]
+        }
+      ]
+    },
+    "tree-3h": {
+      "tiles": [
+
+        {
+          "pattern": "r-tree-cap",
+          "ranges": [
+
+            [0, 0]
+          ]
+        },
+        {
+          "pattern": "r-tree-stump-2",
+          "ranges": [
+            [0, 2],
+            [0, 3],
+            [0, 4]
+          ]
+        }
+      ]
+    },
+    "tree-stump-2": {
+      "tiles": [{
+        "name": "stump",
+        "type": "ground",
+        "ranges": [
+          [
+            1, 0
+          ],
+          [
+            2, 0
+          ]
+        ]
+
+      }]
+    },
+    "r-tree-stump-2": {
+      "tiles": [{
+        "name": "r-stump",
+        "type": "ground",
+        "ranges": [
+          [
+            1, 0
+          ],
+          [
+            2, 0
+          ]
+        ]
+
+      }]
+    },
+    "tree-cap": {
+      "tiles": [{
+          "name": "tree-m",
+          "type": "ground",
+          "ranges": [
+            [
+              1, 1
+            ],
+            [
+              2, 1
+            ]
+          ]
+        },
+        {
+          "name": "tree-l",
+          "type": "ground",
+          "ranges": [
+            [
+              0, 1
+            ]
+          ]
+        },
+        {
+          "name": "tree-r",
+          "type": "ground",
+          "ranges": [
+            [
+              3, 1
+            ]
+          ]
+        }
+      ]
+    },
+    "r-tree-cap": {
+      "tiles": [{
+          "name": "r-tree-m",
+          "type": "ground",
+          "ranges": [
+            [
+              1, 1
+            ],
+            [
+              2, 1
+            ]
+          ]
+        },
+        {
+          "name": "r-tree-l",
+          "type": "ground",
+          "ranges": [
+            [
+              0, 1
+            ]
+          ]
+        },
+        {
+          "name": "r-tree-r",
+          "type": "ground",
+          "ranges": [
+            [
+              3, 1
+            ]
+          ]
+        }
+      ]
+    },
+    "y-bush": {
+      "tiles": [{
+          "name": "y-bush-m",
+          "ranges": [
+            [
+              1, 1
+            ]
+          ]
+        },
+        {
+          "name": "y-bush-l",
+          "ranges": [
+            [
+              0, 1
+            ]
+          ]
+        },
+        {
+          "name": "y-bush-r",
+          "ranges": [
+            [
+              2, 1
+            ]
+          ]
+        }
+      ]
+    },
+    "r-bush": {
+      "tiles": [{
+          "name": "r-bush-m",
+          "ranges": [
+            [
+              1, 1
+            ]
+          ]
+        },
+        {
+          "name": "r-bush-l",
+          "ranges": [
+            [
+              0, 1
+            ]
+          ]
+        },
+        {
+          "name": "r-bush-r",
+          "ranges": [
+            [
+              2, 1
+            ]
+          ]
+        }
+      ]
+    },
+    "y-pop": {
+      "tiles": [{
+          "name": "yellow-top",
+          "ranges": [
+            [
+              0, 0
+            ]
+          ]
+        },
+        {
+          "name": "y-skinny",
+          "ranges": [
+            [
+              0, 1
+            ],
+            [
+              0, 2
+            ]
+          ]
+        }
+      ]
+    },
+    "r-pop": {
+      "tiles": [{
+          "name": "red-top",
+          "ranges": [
+            [
+              0, 0
+            ]
+          ]
+        },
+        {
+          "name": "r-skinny",
+          "ranges": [
+            [
+              0, 1
+            ],
+            [
+              0, 2
+            ],
+            [
+              0,3
+            ]
+          ]
+        }
+      ]
+    },
+    "red-big-tree": {
+      "tiles": [{
+        "name": "r-b-top",
+        "ranges": [[
+          0,0
+          ]]
+        },
+      {
+        "name": "r-b-bot",
+        "ranges": [[
+          0,1
+          ]]
+        },
+        {
+          "name": "r-skinny",
+          "ranges":[[
+            0,2
+            ],
+          [0,3]
+      ]
+        }
+      ]
+    },
+    "yellow-big-tree": {
+      "tiles": [{
+        "name": "y-b-top",
+        "ranges": [[
+          0,0
+          ]]
+        },
+      {
+        "name": "y-b-bot",
+        "ranges": [[
+          0,1
+          ]]
+        },
+        {
+          "name": "y-skinny",
+          "ranges":[[
+            0,2
+            ],
+          [0,3],
+          [0, 4]
+      ]
+        }
+      ]
+    }
+  },
+
+  "layers": [
+    {
+      "tiles": [{
+          "name": "sky",
+          "ranges": [
+            [
+              0, 212,
+              0, 12
+            ]
+          ]
+        },
+        {
+          "name": "ground",
+          "type": "ground",
+          "ranges": [
+            [
+              0, 212,
+              12, 2
+            ]
+          ]
+        },
+        {
+          "name": "sky",
+          "ranges": [
+
+            [
+              62, 2,
+              12, 2
+            ],
+            [
+              90, 2,
+              12, 2
+            ],
+            [
+              93, 2,
+              12, 2
+            ],
+            [
+              96, 2,
+              12, 2
+            ]
+          ]
+        },
+        {
+          "name": "ground",
+          "type": "ground",
+          "ranges": [
+            [
+              20, 3,
+              16, 2
+            ],
+
+            [15,
+              17
+            ],
+            [25, 5, 20]
+          ]
+        }
+
+      ]
+    },
+    {
+      "tiles": [
+
+    {
+      "pattern": "tree-2h",
+      "ranges": [
+        [15, 8],
+        [9, 8]
+      ]
+    },
+    {
+      "pattern": "tree-3h",
+      "ranges": [
+        [20, 7],
+        [30, 7]
+      ]
+    },
+    {
+      "pattern": "r-bush",
+      "ranges": [
+        [2, 7],
+        [30, 7]
+      ]
+    },
+    {
+      "pattern": "yellow-big-tree",
+      "ranges": [
+        [7, 7],
+        [60, 7]
+      ]
+    },
+    {
+      "pattern": "cloud",
+      "ranges": [
+        [15, 6],
+        [11, 4]
+      ]
+    },
+
+    {
+      "name": "castle-top",
+
+      "ranges": [
+        [
+          5, 10
+        ]
+      ]
+    },
+    {
+      "name": "castle",
+
+      "ranges": [
+        [
+          5, 11
+        ]
+      ]
+    },
+    {
+      "name": "brazier",
+      "type": "ground",
+
+      "ranges": [
+        [
+          20, 2
+        ],
+        [
+          1, 2
+        ]
+      ]
+    },
+    {
+      "name": "water-t",
+      "ranges": [
+        [
+          25, 5,
+          12, 1
+        ]
+      ]
+    },
+    {
+      "name": "water-b",
+      "type": "ground",
+
+      "ranges": [
+        [
+          25, 5,
+          14, 1
+        ]
+      ]
+    },
+    {
+      "name": "water-b",
+
+      "ranges": [
+        [
+          25, 5,
+          13, 1
+        ]
+      ]
+    }
+  ]
+}
+],
+  "entities": [
+    {
+    "name": "ghoul",
+    "pos": [260, 24]
+  },
+  {
+  "name": "cat",
+  "pos": [220, 24]
+},
+{
+"name": "elf",
+"pos": [280, 24]
+},
+{
+"name": "treant",
+"pos": [240, 24]
+},
+{
+"name": "spike",
+"pos": [400, 20]
+},
+{
+"name": "spike",
+"pos": [420, 20]
+},
+{
+"name": "spike",
+"pos": [460, 20]
+},
+{
+"name": "spike",
+"pos": [440, 20]
+}
+  ]
+}

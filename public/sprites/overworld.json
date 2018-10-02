@@ -1,0 +1,229 @@
+{
+
+  "imageURL" : "/image/tiles.png",
+  "tileW": 16,
+  "tileH": 16,
+
+  "tiles": [
+    {
+      "name": "ground",
+      "index": [0, 2]
+    },
+    {
+          "name": "sky",
+          "index": [3, 23]
+        },
+        {
+          "name": "castle-top",
+          "index": [11, 0]
+        },
+        {
+          "name": "castle",
+          "index": [13, 0]
+        },
+        {
+          "name": "y-leaves",
+          "index": [11, 14]
+        },
+        {
+          "name": "r-leaves",
+          "index": [11, 16]
+        },
+        {
+          "name": "brazier",
+          "index": [24, 0]
+        },
+        {
+          "name": "brazier-1",
+          "index": [24, 0]
+        },
+        {
+          "name": "brazier-2",
+          "index": [25, 0]
+        },
+        {
+          "name": "brazier-3",
+          "index": [26, 0]
+        },
+        {
+          "name": "stump",
+          "index": [5 , 1]
+        },
+        {
+          "name": "r-stump",
+          "index": [5 , 3]
+        },
+        {
+          "name": "tree-l",
+          "index": [17, 12]
+        },
+        {
+          "name": "tree-m",
+          "index": [18, 12]
+        },
+        {
+          "name": "tree-r",
+          "index": [19, 12]
+        },
+        {
+          "name": "r-tree-l",
+          "index": [17, 8]
+        },
+        {
+          "name": "r-tree-m",
+          "index": [18, 8]
+        },
+        {
+          "name": "r-tree-r",
+          "index": [19,8]
+        },
+        {
+          "name": "cloud t-l",
+          "index": [0, 20]
+        },
+        {
+          "name": "cloud t-m",
+          "index": [1, 20]
+        },
+        {
+          "name": "cloud t-r",
+          "index": [2, 20]
+        },
+        {
+          "name": "cloud b-l",
+          "index": [0, 21]
+        },
+        {
+          "name": "cloud b-m",
+          "index": [1, 21]
+        },
+        {
+          "name": "cloud b-r",
+          "index": [2, 21]
+        },
+        {
+          "name": "water-t",
+          "index": [3, 20]
+        },
+        {
+          "name": "water-b",
+          "index": [3, 21]
+        },
+        {
+          "name": "red-top",
+          "index": [13, 16]
+        },
+        {
+          "name": "yellow-top",
+          "index": [13, 14]
+        },
+        {
+          "name":"r-skinny",
+          "index": [7, 3]
+        },
+        {
+          "name": "y-skinny",
+          "index": [7, 1]
+        },
+        {
+          "name": "r-b-top",
+          "index": [14, 16]
+        },
+        {
+          "name": "r-b-bot",
+          "index": [14, 17]
+        },
+        {
+          "name": "y-b-top",
+          "index": [14, 14]
+        },
+        {
+          "name": "y-b-bot",
+          "index": [14, 15]
+        },
+        {
+          "name": "rune-1-top",
+          "index": [14, 8]
+        },
+        {
+          "name": "rune-1-bot",
+          "index": [14, 9]
+        },
+
+        {
+          "name": "rune-2-top",
+          "index": [14, 10]
+        },
+        {
+          "name": "rune-2-bot",
+          "index": [14, 11]
+        },
+        {
+          "name": "rune-3-top",
+          "index": [14, 12]
+        },
+        {
+          "name": "rune-3-bot",
+          "index": [14, 13]
+        },
+        {
+          "name": "y-bush-l",
+          "index": [11, 13]
+        },
+        {
+          "name": "y-bush-m",
+          "index": [12, 13]
+        },
+        {
+          "name": "y-bush-r",
+          "index": [13, 13]
+        },
+        {
+          "name": "r-bush-l",
+          "index": [11, 15]
+        },
+        {
+          "name": "r-bush-m",
+          "index": [12, 15]
+        },
+        {
+          "name": "r-bush-r",
+          "index": [13, 15]
+        }
+  ],
+  "animations": [
+    {
+      "name": "brazier",
+      "frameLen": 0.12,
+      "frames": [
+          "brazier-1",
+          "brazier-1",
+          "brazier-2",
+          "brazier-3",
+          "brazier-2"
+      ]
+    },
+    {
+      "name": "runestone-top",
+      "frameLen": 0.25,
+      "frames": [
+          "rune-3-top",
+          "rune-1-top",
+          "rune-2-top",
+          "rune-1-top",
+          "rune-3-top"
+      ]
+    },
+    {
+      "name": "runestone-bot",
+      "frameLen": 0.25,
+      "frames": [
+          "rune-3-bot",
+          "rune-1-bot",
+          "rune-2-bot",
+          "rune-1-bot",
+          "rune-3-bot"
+      ]
+    }
+  ]
+}
