@@ -1,5 +1,5 @@
 import Entity, {Sides, Trait} from '../Entity.js';
-import PendulumMove from '../traits/PendulumMove.js';
+import PendulumRun from '../traits/PendulumRun.js';
 import Killable from '../traits/Killable.js';
 import Solid from '../traits/Solid.js'
 import Physics from '../traits/Physics.js'
@@ -21,7 +21,7 @@ class Behavior extends Trait {
     if (them.stomper) {
       if (them.vel.y > us.vel.y) {
       us.killable.kill();
-      us.pendulumMove.speed = 0;
+      us.pendulumRun.speed = 0;
     } else {
       them.killable.kill();
     }
@@ -50,7 +50,7 @@ function createElfFactory(sprite) {
 
     elf.addTrait(new Physics());
     elf.addTrait(new Solid());
-    elf.addTrait(new PendulumMove());
+    elf.addTrait(new PendulumRun());
     elf.addTrait(new Behavior());
     elf.addTrait(new Killable());
     elf.draw = drawElf;

@@ -28,7 +28,7 @@ async function main(canvas){
   ]);
 
   const loadLevel = await createLevelLoader(entityFactory);
-  const level = await loadLevel('1-1');
+  const level = await loadLevel('eversong');
 
   const camera = new Camera();
 

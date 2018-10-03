@@ -1,5 +1,5 @@
 import Entity, {Sides, Trait} from '../Entity.js';
-import PendulumMove from '../traits/PendulumMove.js';
+import PendulumSprint from '../traits/PendulumSprint.js';
 import Killable from '../traits/Killable.js';
 import Solid from '../traits/Solid.js'
 import Physics from '../traits/Physics.js'
@@ -21,7 +21,7 @@ class Behavior extends Trait {
     if (them.stomper) {
       if (them.vel.y > us.vel.y) {
       us.killable.kill();
-      us.pendulumMove.speed = 0;
+      us.pendulumSprint.speed = 0;
     } else {
       them.killable.kill();
     }
@@ -48,7 +48,7 @@ function createCatFactory(sprite) {
     cat.size.set(16, 16);
     cat.addTrait(new Physics());
     cat.addTrait(new Solid());
-    cat.addTrait(new PendulumMove());
+    cat.addTrait(new PendulumSprint());
     cat.addTrait(new Behavior());
     cat.addTrait(new Killable());
     cat.draw = drawCat;
