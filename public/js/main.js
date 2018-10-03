@@ -17,7 +17,7 @@ gameSong.loop = true;
 function createPlayerEnv(playerEntity) {
   const playerEnv = new Entity();
   const playerControl = new PlayerController();
-  playerControl.checkpoint.set(64, 64);
+  playerControl.checkpoint.set(80, 80);
   playerControl.setPlayer(playerEntity);
   playerEnv.addTrait(playerControl);
   return playerEnv;
@@ -28,7 +28,7 @@ async function main(canvas){
   const [entityFactory, font] = await Promise.all([
     loadEntities(),
     loadFont (),
-    gameSong.play()
+    gameSong.play(),
   ]);
 
   const loadLevel = await createLevelLoader(entityFactory);

@@ -118,8 +118,7 @@ function createGhoulFactory(sprite) {
 
   return function createGhoul() {
     const ghoul = new Entity();
-    ghoul.size.set(16, 16);
-    ghoul.offset.y = 8;
+    ghoul.size.set(16, 24);
     ghoul.addTrait(new Physics());
     ghoul.addTrait(new Solid());
     ghoul.addTrait(new PendulumMove());

@@ -10,6 +10,10 @@
       "index": [0, 2]
     },
     {
+      "name": "desc-ground",
+      "index": [0, 4]
+    },
+    {
           "name": "sky",
           "index": [3, 23]
         },
@@ -18,8 +22,20 @@
           "index": [11, 0]
         },
         {
+          "name": "castle-door",
+          "index": [12, 1]
+        },
+        {
           "name": "castle",
           "index": [13, 0]
+        },
+        {
+          "name": "l-castle",
+          "index": [14, 0]
+        },
+        {
+          "name": "r-castle",
+          "index": [15, 0]
         },
         {
           "name": "y-leaves",
