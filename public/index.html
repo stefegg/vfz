@@ -13,12 +13,34 @@
         display: block;
         image-rendering: pixelated;
         height: 100vh;
-        margin: auto;
+      }
+      #manual {
+        padding-top: 5vh;
+        font-family: courier;
+        color: green;
+      }
+      #manual img {
+        max-width: 80%;
+      }
+
+      #grid {
+        display: grid;
+        grid-template-columns: 70% 30%;
       }
     </style>
     <script type="module" src="/js/main.js"></script>
   </head>
   <body>
-<canvas id="screen" width="256" height="224"></canvas>
+<div id='grid'>
+<div><canvas id="screen" width="256" height="224"></canvas></div>
+<div id="manual">
+<img src='image/vfz.jpg'>
+<p> Controls: <br>
+  Move Left: A<br>
+  Move Right: D<br>
+  Jump: Spacebar<br>
+  Run: O</p>
+</div>
+</div>
   </body>
 </html>
