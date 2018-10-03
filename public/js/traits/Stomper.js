@@ -1,5 +1,8 @@
 import {Sides, Trait} from '../Entity.js';
 
+const stompSound = new Audio('../sounds/die.wav')
+
+
 export default class Stomper extends Trait {
   constructor(){
     super('stomper');
@@ -19,6 +22,8 @@ export default class Stomper extends Trait {
       if (us.vel.y > them.vel.y) {
       this.bounce(us, them);
       this.onStomp(us, them);
+      stompSound.play();
+
     }
   }
 }

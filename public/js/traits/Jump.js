@@ -1,5 +1,8 @@
 import {Sides, Trait} from '../Entity.js';
 
+const jumpSound = new Audio('../sounds/jump.wav')
+
+
 export default class Jump extends Trait {
   constructor(){
     super('jump');
@@ -19,11 +22,11 @@ export default class Jump extends Trait {
 
   start () {
     this.requestTime = this.gracePeriod;
+    jumpSound.play();
 }
   cancel () {
     this.engageTime = 0;
     this.requestTime = 0;
-
   }
 
   obstruct(entity, side) {

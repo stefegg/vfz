@@ -22,7 +22,7 @@
   "animations": [
     {
       "name": "walk",
-      "frameLen": 0.25,
+      "frameLen": 0.20,
       "frames": [
         "walk-2",
         "walk-1",
