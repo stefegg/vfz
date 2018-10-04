@@ -11,8 +11,7 @@ import {createDashboardLayer} from './layers/dashboard.js';
 // import {setupMouseControl} from './debug.js';
 //debug
 
-const gameSong = new Audio('../sounds/song.wav');
-gameSong.loop = true;
+
 
 function createPlayerEnv(playerEntity) {
   const playerEnv = new Entity();
@@ -28,7 +27,6 @@ async function main(canvas){
   const [entityFactory, font] = await Promise.all([
     loadEntities(),
     loadFont (),
-    gameSong.play(),
   ]);
 
   const loadLevel = await createLevelLoader(entityFactory);

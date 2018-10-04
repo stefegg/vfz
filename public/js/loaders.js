@@ -2,6 +2,8 @@ import SpriteSheet from './SpriteSheet.js';
 
 import {createAnim} from './anim.js';
 
+const gameSong = new Audio('../sounds/song.wav');
+gameSong.loop = true;
 
 export function loadImage(url) {
   return new Promise(resolve => {
@@ -49,5 +51,6 @@ export function loadSpriteSheet(name) {
          });
        }
       return sprites;
+      gameSong.play();
   });
   }
